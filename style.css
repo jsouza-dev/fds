@@ -17,13 +17,15 @@ body {
   
   /* Mensagem de boas-vindas */
 #welcome-message {
-    position: fixed;
-    top: 100px;
-    width: 100%;
+    position: absolute; /* Usa o body como referência */
+    top: 10%; /* Ajustável para centralizar */
+    left: 50%;
+    transform: translate(-50%, -10%); /* Centraliza horizontalmente */
+    width: auto;
     text-align: center;
     font-size: 1.5rem;
     color: yellow;
-    z-index: 2; /* Acima do contêiner e efeitos */
+    z-index: 2; /* Garante que fique acima dos outros elementos */
     animation: fadeIn 2s ease-in-out;
   }
 
