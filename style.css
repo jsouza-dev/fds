@@ -17,8 +17,8 @@ body {
   
   /* Mensagem de boas-vindas */
 #welcome-message {
-    position: absolute; /* Usa o body como referência */
-    top: 10%; /* Ajustável para centralizar */
+    position: relative; /* Usa o body como referência */
+    top: 20%; /* Ajustável para centralizar */
     left: 50%;
     transform: translate(-50%, -10%); /* Centraliza horizontalmente */
     width: auto;
@@ -43,6 +43,7 @@ body {
     align-items: center;
     z-index: 2; /* Acima dos efeitos */
     position: relative;
+    margin-top: 120px; /* Ajuste esse valor conforme necessário */
   }
   
   /* Título estilizado */
